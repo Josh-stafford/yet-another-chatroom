@@ -1,0 +1,9 @@
+{
+  "name": "college-chatroom",
+  "version": "0.0.1",
+  "description": "Chatroom html app using socket.io",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.1.0"
+  }
+}

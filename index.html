@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="client.js"></script>
+    <title>Chat | Raidnode</title>
+
+  </head>
+
+  <body>
+    <p id="startTitle">Enter your username:</p>
+    <input type="text" id="nameBox" placeholder="Username..."/ onKeyDown="if(event.keyCode==13) setUsername();">
+    <div id="sidebar"></div>
+    <div id="chatArea">
+      <div id="msgArea">
+        <div id="messages"></div>
+      </div>
+      <div id="msgField">
+        <input type="text" id="msgInput" onKeyDown="if(event.keyCode==13) sendMessage();" placeholder="Enter message here..."/>
+      </div>
+
+    </div>
+  </body>
+</html>
